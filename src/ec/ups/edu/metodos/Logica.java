@@ -36,7 +36,8 @@ public class Logica {
 	}
 	
 	public String metodIntegranteUno() {
-		return "NarcisaAraujo";
+		String mensaje="Este método a sido modificado por" + this.nombre+""+this.apellido;
+		return mensaje;
 	}
 	public String metodIntegranteDos() {
 		String mensaje= "este mensaje a sido modificado por :"+this.nombre +" "+this.apellido;
