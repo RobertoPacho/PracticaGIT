@@ -40,7 +40,8 @@ public class Logica {
 		return mensaje;
 	}
 	public String metodIntegranteDos() {
-		return "RobertoPacho";
+		String mensaje= "este mensaje a sido modificado por :"+this.nombre +" "+this.apellido;
+		return mensaje;
 	}
 
 }
