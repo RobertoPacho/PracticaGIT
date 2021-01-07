@@ -6,8 +6,6 @@ public class Principal {
 		// TODO Auto-generated method stub
 		Logica logica=new Logica();
 		
-		System.out.println(logica.metodIntegranteUno());
-		
 		
 		Logica logica2=new Logica(2,"Roberto", "Pacho");
 		System.out.println(logica.metodIntegranteDos());
